@@ -41,7 +41,7 @@ puts ".top { background-color: rgb(70, 0, 51); width: 100%; height: 50px; positi
 puts "</style>"
 
 puts "<body style='margin:70px'>"
-puts "<div class='top'><span style='color:white; font-size:30px;'>JSearch</span></div>"
+puts "<div class='top'><span style='color:white; font-size:30px;'>ICSSearch</span></div>"
 
 # Perform Search
 puts "<form action='http://localhost/cgi-bin/ICSSearch.cgi'>"
@@ -50,7 +50,7 @@ puts "<button style='width:70px; height:30px;font-size:14px;''>Search</button><b
 puts "</form>"
 
 # Display Search Result
-puts "<span style='color:grey';>JSearch key words: ", cgi['queries'], "</span><br/><br/>"
+puts "<span style='color:grey';>ICSSearch key words: ", cgi['queries'], "</span><br/><br/>"
 count = 0
 new_docindex.each do |key, value|
    if count == 10
