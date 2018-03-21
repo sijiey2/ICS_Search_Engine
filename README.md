@@ -16,4 +16,6 @@ $ ruby index.rb pages/ index.dat
 $ ruby pagerank.rb pages/
 4. set up cgi (https://httpd.apache.org/docs/2.4/howto/cgi.html)
 
+Sample Screen Shot:
 
+<img src="https://github.com/sijiey2/Search_Engine/blob/master/sampleIMG.png" width="400" height="300"/>
